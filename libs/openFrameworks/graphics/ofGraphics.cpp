@@ -143,7 +143,7 @@ void ofPopView(){
 }
 
 //----------------------------------------------------------
-void ofViewport(ofRectangle viewport){
+void ofViewport(ofCircle viewport){
 	renderer->viewport(viewport.x, viewport.y, viewport.width, viewport.height);
 }
 
